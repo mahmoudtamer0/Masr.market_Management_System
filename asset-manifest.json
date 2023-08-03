@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Masr.market_Management_System/static/css/main.d0f0084c.css",
-    "main.js": "/Masr.market_Management_System/static/js/main.74a1f7e0.js",
+    "main.css": "/Masr.market_Management_System/static/css/main.0734d922.css",
+    "main.js": "/Masr.market_Management_System/static/js/main.8a642f61.js",
     "static/js/787.94c013ca.chunk.js": "/Masr.market_Management_System/static/js/787.94c013ca.chunk.js",
     "index.html": "/Masr.market_Management_System/index.html",
-    "main.d0f0084c.css.map": "/Masr.market_Management_System/static/css/main.d0f0084c.css.map",
-    "main.74a1f7e0.js.map": "/Masr.market_Management_System/static/js/main.74a1f7e0.js.map",
+    "main.0734d922.css.map": "/Masr.market_Management_System/static/css/main.0734d922.css.map",
+    "main.8a642f61.js.map": "/Masr.market_Management_System/static/js/main.8a642f61.js.map",
     "787.94c013ca.chunk.js.map": "/Masr.market_Management_System/static/js/787.94c013ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0f0084c.css",
-    "static/js/main.74a1f7e0.js"
+    "static/css/main.0734d922.css",
+    "static/js/main.8a642f61.js"
   ]
 }
