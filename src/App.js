@@ -6,6 +6,7 @@ import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import Addproduct from './components/Addproduct';
 import Footer from './components/Footer';
 import Editprod from './components/Editprod';
+import { useEffect, useState, CSSProperties } from "react";
 import HashLoader from "react-spinners/HashLoader";
 import './components/preloader.css'
 
