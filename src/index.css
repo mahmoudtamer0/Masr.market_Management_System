@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.roww {
+  max-width: 100%;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+th,
+td {
+  max-width: 100px;
+}
+
+@media (max-width:555px) {
+
+  th,
+  td {
+    font-size: 7px;
+  }
+
+  .btn {
+    font-size: 7px !important;
+  }
+}
+
+.add-div {
+  text-align: center;
+}
+
+.add {
+  width: 50%;
+  margin: 0 auto;
+  font-weight: bold !important;
+  font-size: 16px !important;
+}
+
+.navbar-brand {
+  color: #ed8a8a !important;
+  font-weight: bold;
+}
+
+.all-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  padding: 23px;
+  height: 60px;
+  width: 100%;
+}
+
+.footer h5 {
+  margin: 0;
+  color: #b7b7b7;
+  font-size: 14px;
+}
+
+.footspec {
+  color: #ed8a8a !important;
+}
