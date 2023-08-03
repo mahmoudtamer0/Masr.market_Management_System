@@ -2,11 +2,12 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import ClipLoader from "react-spinners/ClipLoader";
 // import Swal from "sweetalert2";
 
 
 function Products() {
-    let [products, setProducts] = useState([]);
+    let [products, setProducts] = useState();
     useEffect(() => {
         getproducts()
     }, [])
@@ -24,11 +25,21 @@ function Products() {
         })
     }
 
+    const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+        setLoading(true)
+
+        setTimeout(() => {
+            setLoading(false)
+        }, 1500);
+    }, [])
+
     return (
         <div className="container">
             <h2 className="all-title">All Products</h2>
             <Link to='/add_product' className="btn btn-success btn-lg cat-btn">Add Product</Link>
-            <table className="table table-striped">
+            {products ? <table className="table table-striped">
 
                 <thead>
                     <tr>
@@ -58,7 +69,13 @@ function Products() {
                         )
                     })}
                 </tbody>
-            </table>
+            </table> : <div className='prodpre text-center'><ClipLoader
+                color='#ed8a8a'
+                loading={loading}
+                size={30}
+                aria-label="Loading Spinner"
+                data-testid="loader"
+            /></div>}
         </div>
     )
 }
